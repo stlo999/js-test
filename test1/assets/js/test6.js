@@ -24,8 +24,8 @@ $(function(){
          $container.append("<div class='box box"+i+"_"+n+"'></div>");
          var $box = $(".box"+i+"_"+n);
          $box.css({
-           width: scale,
-           height: scale,
+           "width": scale,
+           "height": scale,
            "top": i * scale,
            "left": n * scale,
            "background-color": "#ccc",
